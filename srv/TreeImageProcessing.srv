@@ -1,0 +1,8 @@
+# Request
+sensor_msgs/Image depth_image
+sensor_msgs/Image color_image
+---
+# Response
+pf_orchard_interfaces/TreeImageData tree_image_data
+bool success
+string message
