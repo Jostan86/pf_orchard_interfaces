@@ -16,8 +16,6 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TreeImageData.msg"
-  "msg/TreeInfo.msg"
-  "msg/TreePosition.msg"
   "msg/StampedFloat.msg"
   "srv/TreeImageProcessing.srv"
   DEPENDENCIES std_msgs sensor_msgs

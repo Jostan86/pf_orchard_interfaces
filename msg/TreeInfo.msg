@@ -1,4 +1,0 @@
-float64 width
-pf_orchard_interfaces/TreePosition position
-float64 confidence
-int32 classification
